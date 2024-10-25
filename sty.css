@@ -1,1 +1,446 @@
+body {
+    font-family: sans-serif;
+    width: 100%;
+}
+.text-header{
+    font-size: 35px;
+        color: white;
+        position: relative;
+        left: 10%;
+        top: 5px;
+    
+}
+.h2-header{
+    position: absolute;
+    left: 650px;
+    top: 10px;
+    font-size: 20px;
+}
+.h3-header{
+   position: absolute;
+    left: 850px;
+    top: 10px;
+    font-size: 20px;
+}
+.h4-header{
+    position: absolute;
+    left: 950px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.text-header2 {
+    text-align: center;
+    position: absolute;
+    right: 200px ;
+    
+    
+    color: white;
+    
+
+    
+}
+header{
+position: fixed;
+font-family: 'Inter';
+width: 100%;
+height: 80px;
+background-color: #523b29;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+z-index: 100;
+top: 0px;
+transition: transform 0.2s ease-in-out;
+box-sizing: border-box;
+
+}
+
+header.hidden{
+    transform: translateY(-100%);
+
+
+}
+main{
+
+position: relative;
+width: 100%;
+height: 3100px;
+top: 30px;
+background-color: #E9E0D6;
+
+}
+
+.text-main-h{
+    position: absolute;
+    top:  -800px;
+    width: 1100px;
+    left: 100px;
+    font-size: 40px;
+    color: #ffebc6;
+    font-family: Playfair Display;
+}
+.text-main-hh{
+    position: absolute;
+    top:  -150px;
+    width: 1100px;
+    left: 200px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: Caveat;
+}
+
+.text-h2-main{
+    position: absolute;
+    top:  -600px;
+    width: 1050px;
+    left: 100px;
+    font-size: 35px;
+    color: #ffd8a4;
+    
+    line-height: 46px;
+    font-family: Playfair Display;
+
+    position: absolute;
+    
+    
+    background-color: rgba(0, 0, 0, 0.21);
+    border-radius: 10px;
+    
+    
+    padding: 5px;
+    transition: 1s;
+    background-image: linear-gradient(#000000);
+}
+
+.text-main1:hover{
+    
+    box-shadow: 5px 5px 5px none ;
+    transition: 1s;
+    left:1200px ;
+    
+    
+}
+.p-main{
+    position: relative;
+
+}
+p{
+    color: white;
+    
+
+position: absolute;
+width: 279px;
+height: 346px;
+
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+
+
+
+}
+.p-main p span{
+    text-wrap: nowrap;
+    text-align: center;
+    width: 106px;
+    height: 409px;
+    font-size: 30px;
+}
+.map{
+text-align: center;
+position: absolute;
+width: 326px;
+height: 409px;
+top: 350px;
+font-size: 30px;
+left: 310px;
+color: #121111;
+font-style: normal;
+font-weight: 500;
+
+
+
+width: 400px;
+height: 160px;
+
+background-color: rgba(224, 224, 224, 0.61);
+
+
+
+padding: 5px;
+transition: 1s;
+background-image: linear-gradient(#000000);
+
+}
+.p-main2{
+    text-align: left;
+    position: absolute;
+    top: 260px;
+    font-size: 35px;
+    left: 320px;
+    color: #f7e3c9;
+    width: 450px;
+    font-style: normal;
+    font-weight: 700;
+}
+.nombar {
+    top: 830px;
+    left: 120px;
+    font-size: 30px;
+}
+
+.coffee-text {
+    position: absolute;
+    color: #fdf6e2;
+    top: 1700px;
+    left: 350px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    width: 350px;
+}
+
+
+.img-offic{
+    
+
+position: absolute;
+width: 450px;
+height: 560px;
+top: 140px;
+right: 450px;
+transition: 1s;
+
+}
+.img-offic:hover{
+width: 480px;
+height: 590px;
+box-shadow: 0px 5px 5px 3px none;
+transition: 1s;
+top: 190px;
+}
+.coffe-car{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    bottom: 800px;
+    left: 200px;
+    transition: 1s;
+    
+}
+.coffe-car:hover{
+    width: 550px;
+    height: 380px;
+    box-shadow: 0px 5px 5px 3px none;
+    transition: 1s;
+}
+
+.img-coffe{
+    
+
+position: absolute;
+width: 300px;
+height: 350px;
+bottom:   200px;
+right: 200px;
+
+
+
+
+
+}
+
+
+.img-coffe2{
+    
+
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    bottom:   50px;
+    right: 400px;
+
+    }  
+    .img-coffe3{
+    
+
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        bottom:   200px;
+        right: 630px;
+        }  
+    
+.ops {
+    
+
+position: absolute;
+
+top: 1000px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 26px;
+width: 600px;
+color: #2b2929;
+bottom: 450px;
+text-align: left;
+right: 300px;
+
+
+}
+footer{
+    
+background-color: #121111;
+position: relative;
+width: 100%;
+height: 50px;
+bottom: 0px;
+
+
+    
+}
+.instagram {
+
+
+position: absolute;
+width: 30px;
+height: 30px;
+bottom: 25%;
+left: 5px;
+
+
+}
+.tiktok {
+position: absolute;
+width: 50px;
+height: 50px;
+bottom: 2.5px;
+left: 40px;
+}
+
+.text-footer{
+ 
+
+position: absolute;
+
+width: 237px;
+height: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+right: 5px;
+bottom: 0px;
+color: #FFFFFF;
+
+
+
+}
+
+
+.img-main{
+    position: relative;
+        width: 100%;
+        top: 100px;
+        max-width: 100%;
+        height: 900px;
+        top: 0px;
+
+}
+
+.burger-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1000;
+    right: 20px;
+    top: 20px;
+    
+    
+
+}
+
+.burger-menu span{
+    background-color: white;
+    border-radius: 1em ;
+    width: 100%;
+    height: 6px;
+    display: block;
+    
+    
+}
+
+.list{
+    position: fixed;
+    top: 100px;
+    width: 250px;
+    height: 150px;
+    background-color: rgb(75, 47, 15);
+    transform: translateX(-250px);
+    right: -250px;
+    transition: transform 0.2s linear;
+    z-index: 100;
+    border-radius: 1em;
+    
+    
+
+}
+
+.list ul{
+    list-style: none;
+
+}
+
+.list ul li{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.list.active{
+    transform: translateX(0);
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.bb{
+   position: absolute; 
+    background-color: #28201A;
+    width: 90%;
+    height: 600px;
+    top: 1090px;
+    left: 100px;
+}
+.bk{
+    position: absolute; 
+    background-color: #3d322a;
+    width: 100%;
+    height: 600px;
+    bottom: 0px;
+    
+}
+
+.main-div{
+    position: fixed;
+}
 
